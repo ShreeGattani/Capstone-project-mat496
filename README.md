@@ -69,15 +69,11 @@ I planned to execute these steps to complete the HintForge project:
 
 - [DONE] **Step 7**: Implement the **Critic Node** (`critic_node.py`) to review hint quality and provide feedback for regeneration
 
-- [TODO] **Step 8**: Implement the **Router Function** (`router_function.py`) with conditional edge logic to manage the reflection loop
+- [DONE] **Step 8**: Implement the **Router Function** (`router_function.py`) with conditional edge logic to manage the reflection loop
 
 - [TODO] **Step 9**: Build the main LangGraph workflow in `hintforge_agent.py`, connecting all nodes with proper edges and conditional routing
 
-- [TODO] **Step 10**: Create the Streamlit web UI (`app.py`) for user-friendly interaction with the agent
-
-- [TODO] **Step 11**: Add learning resources suggestion feature in the Streamlit UI that recommends tutorials based on detected algorithmic concepts
-
-- [TODO] **Step 12**: Write comprehensive README documentation covering architecture, file structure, setup instructions, and usage
+- [TODO] **Step 10**: Create the Streamlit web UI (`app.py`) for user-friendly interaction with the agent and also added learning resources suggestion feature in the Streamlit UI that recommends tutorials based on detected algorithmic concepts
 
 
 ### Conclusion 
