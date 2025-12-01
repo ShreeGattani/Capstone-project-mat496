@@ -55,7 +55,7 @@ This project aligns perfectly with advanced AI agent development concepts, integ
 
 I planned to execute these steps to complete the HintForge project:
 
-- [TODO] **Step 1**: Set up project structure, virtual environment, and install core dependencies (LangGraph, LangChain, OpenAI, Tavily, Pydantic)
+- [DONE] **Step 1**: Set up project structure, virtual environment, and install core dependencies (LangGraph, LangChain, OpenAI, Tavily, Pydantic)
 
 - [TODO] **Step 2**: Define the `GraphState` TypedDict and `Hint` Pydantic model in `graph_state.py` to establish the shared state schema and structured output format
 
