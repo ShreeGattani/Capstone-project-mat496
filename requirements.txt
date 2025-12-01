@@ -1,0 +1,8 @@
+langgraph
+langchain-openai
+langchain-community
+pydantic
+beautifulsoup4
+python-dotenv
+tavily-python
+streamlit
