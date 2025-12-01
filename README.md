@@ -1,25 +1,26 @@
 
-
-## Title: HintForge: An Intelligent Code Analysis Agent for Competitive Programming
+## Title: HintForge: Intelligent Socratic Coding Tutor
 
 ## Overview
-HintForge is a LangGraph-powered intelligent tutoring agent for Competitive Programming that avoids the “Spoiler Problem.” Instead of revealing full solutions, it analyzes the problem statement (URL/text) and the user’s failing code to guide learning.
-It detects time-complexity issues, extracts constraints, and identifies the missing algorithm (e.g., Binary Search, DP, Fenwick Tree).
-HintForge then performs web search via Tavily to retrieve high-quality tutorials.
-Finally, it generates a structured, Socratic hint that nudges the user toward the correct approach without giving code.
-By combining RAG, tool-calling, structured output, and LangGraph’s multi-node workflow, HintForge provides an editorial-free, guided learning experience that builds real problem-solving skills.
+
+HintForge is an intelligent agentic workflow designed to assist competitive programmers without revealing full solutions. Instead of acting as a code generator, HintForge functions as a "Socratic Tutor." It accepts a problem statement (URL or text) along with the user's failing code (e.g., TLE, Wrong Answer) as input.
+
+The agent uses a multi-node LangGraph workflow to:
+1. **Analyze** the problem constraints and evaluate the time complexity of the user's code.
+2. **Diagnose** logical or performance failures based on extracted problem constraints.
+3. **Research** the required algorithm using external web tools to find high-quality tutorials.
+4. **Generate** a progressive, structured hint that guides the user without providing direct code.
 
 ## Reason for picking up this project
-Reason for picking up this project
-I selected this project because it perfectly demonstrates the power of Agentic Workflows in education. It covers all major course topics:
+This project aligns perfectly with the MAT496 curriculum, integrating every major concept taught in the course:
 
-**RAG**: The agent must ingest and "understand" the unstructured text of the problem statement and constraints.
+1. **LangGraph:**  - HintForge implements a structured **StateGraph** with multiple interconnected nodes for analysis, retrieval, and hint generation. State transitions ensure smooth data flow across the agent pipeline.
 
-**Tool Calling**: It utilizes web search tools to dynamically fetch learning resources, ensuring the advice is not limited to the LLM's training data.
+2. **RAG & Semantic Search:**  - It performs Retrieval-Augmented Generation by loading unstructured problem statements directly from URLs and searching the web for algorithmic explanations using semantic search tools.
 
-**LangGraph**: The application relies on state management to pass data between the "Logic Analyzer" node and the "Researcher" node.
+3. **Tool Calling:**  - The agent autonomously calls external tools such as **Tavily Search** to fetch relevant learning resources, dynamically generating search queries based on detected algorithmic needs.
 
-**Structured Output**: The final response is constrained to a strict format (Hint + Link + Explanation) rather than free-form chat.
+4. **Structured Output:**  - It enforces strict Pydantic-based JSON schemas for hint generation, ensuring clarity, consistency, and pedagogical structure instead of free-form LLM text.
 
 ## Video Summary Link: 
 
