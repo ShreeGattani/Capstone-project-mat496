@@ -61,7 +61,7 @@ I planned to execute these steps to complete the HintForge project:
 
 - [DONE] **Step 3**: Implement the **Ingestor Node** (`ingestor_node.py`) with Tavily API integration to fetch and parse problem statements from URLs
 
-- [TODO] **Step 4**: Implement the **Analyzer Node** (`analyzer_node.py`) using GPT-4o-mini to diagnose code flaws and identify required time complexity
+- [DONE] **Step 4**: Implement the **Analyzer Node** (`analyzer_node.py`) using GPT-4o-mini to diagnose code flaws and identify required time complexity
 
 - [TODO] **Step 5**: Implement the **Hacker Node** (`hacker_node.py`) using GPT-4o to generate counter-example test cases that break the user's solution
 
