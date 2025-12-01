@@ -65,7 +65,7 @@ I planned to execute these steps to complete the HintForge project:
 
 - [DONE] **Step 5**: Implement the **Hacker Node** (`hacker_node.py`) using GPT-4o to generate counter-example test cases that break the user's solution
 
-- [TODO] **Step 6**: Implement the **Tutor Node** (`tutor_node.py`) with structured output (Pydantic) to generate non-spoiler Socratic hints
+- [DONE] **Step 6**: Implement the **Tutor Node** (`tutor_node.py`) with structured output (Pydantic) to generate non-spoiler Socratic hints
 
 - [TODO] **Step 7**: Implement the **Critic Node** (`critic_node.py`) to review hint quality and provide feedback for regeneration
 
