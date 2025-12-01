@@ -57,7 +57,7 @@ I planned to execute these steps to complete the HintForge project:
 
 - [DONE] **Step 1**: Set up project structure, virtual environment, and install core dependencies (LangGraph, LangChain, OpenAI, Tavily, Pydantic)
 
-- [TODO] **Step 2**: Define the `GraphState` TypedDict and `Hint` Pydantic model in `graph_state.py` to establish the shared state schema and structured output format
+- [DONE] **Step 2**: Define the `GraphState` TypedDict and `Hint` Pydantic model in `graph_state.py` to establish the shared state schema and structured output format
 
 - [TODO] **Step 3**: Implement the **Ingestor Node** (`ingestor_node.py`) with Tavily API integration to fetch and parse problem statements from URLs
 
