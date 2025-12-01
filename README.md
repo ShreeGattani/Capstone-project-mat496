@@ -59,7 +59,7 @@ I planned to execute these steps to complete the HintForge project:
 
 - [DONE] **Step 2**: Define the `GraphState` TypedDict and `Hint` Pydantic model in `graph_state.py` to establish the shared state schema and structured output format
 
-- [TODO] **Step 3**: Implement the **Ingestor Node** (`ingestor_node.py`) with Tavily API integration to fetch and parse problem statements from URLs
+- [DONE] **Step 3**: Implement the **Ingestor Node** (`ingestor_node.py`) with Tavily API integration to fetch and parse problem statements from URLs
 
 - [TODO] **Step 4**: Implement the **Analyzer Node** (`analyzer_node.py`) using GPT-4o-mini to diagnose code flaws and identify required time complexity
 
