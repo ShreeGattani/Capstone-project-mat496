@@ -49,6 +49,7 @@ This project aligns perfectly with advanced AI agent development concepts, integ
 
 ## Video Summary Link: 
 
+https://drive.google.com/file/d/1iqxGssSi2yGRrHHM5b5ABo22-OGFuAhZ/view?usp=share_link
 
 
 ## Plan:
