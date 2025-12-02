@@ -51,7 +51,7 @@ This project aligns perfectly with advanced AI agent development concepts, integ
 
 
 
-### Plan
+## Plan:
 
 I planned to execute these steps to complete the HintForge project:
 
@@ -80,7 +80,40 @@ I planned to execute these steps to complete the HintForge project:
 
 This project successfully delivers a functional Socratic tutoring agent for competitive programming. It integrates LangGraph for multi-node orchestration, Tavily-based RAG for problem retrieval, and structured Pydantic outputs for consistent hint generation. The reflection loop enables self-correction, while the Streamlit UI provides a smooth and interactive user experience. With complete documentation and a production-ready design, the system effectively demonstrates modern LLM orchestration concepts in a cohesive and practical application.
 
+## How to run (Setup instructions):
+### 1. Prerequisites
+- Python 3.10+
+- OpenAI API Key
+- Tavily API Key (Free tier at tavily.com)
 
+### 2. Setup
+1.  **Clone the repository**:
+    ```bash
+    git clone https://github.com/ShreeGattani/Capstone-project-mat496.git
+    cd hintforge
+    ```
+2. **Create and activate virtual environment**
+   ```python -m venv .venv
+      source .venv/bin/activate
+   ```    
+2.  **Install dependencies**:
+    ```pip install --upgrade pip
+    pip install -r requirements.txt
+    ```
+3.  **Configure Environment**:
+    Create a `.env` file in the root directory:
+    ```env
+    OPENAI_API_KEY=sk-your-key-here
+    TAVILY_API_KEY=tvly-your-key-here
+    ```
+4.  **Run the agent**:
+    ```source .venv/bin/activate
+    python hintforge_agent.py
+    ```
+4.  **Run the Streamlit UI**:
+    ```source .venv/bin/activate
+    streamlit run app.py
+    ```    
 
 
   
