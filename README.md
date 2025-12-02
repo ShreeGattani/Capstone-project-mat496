@@ -19,6 +19,10 @@ The agent uses a multi-node LangGraph workflow to:
 
 6. **Suggest Resources** (via Streamlit UI) by recommending high-quality tutorials and learning materials based on the detected algorithmic concepts.
 
+   HintForge LangGraph Workflow
+
+   <img width="580" height="600" alt="image" src="https://github.com/user-attachments/assets/ca99f022-d5cf-4d22-b609-3e3294d34cab" />
+
 
 ## Reason for Picking Up This Project
 
