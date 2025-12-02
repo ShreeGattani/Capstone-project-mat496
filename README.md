@@ -71,7 +71,7 @@ I planned to execute these steps to complete the HintForge project:
 
 - [DONE] **Step 8**: Implement the **Router Function** (`router_function.py`) with conditional edge logic to manage the reflection loop
 
-- [TODO] **Step 9**: Build the main LangGraph workflow in `hintforge_agent.py`, connecting all nodes with proper edges and conditional routing
+- [DONE] **Step 9**: Build the main LangGraph workflow in `hintforge_agent.py`, connecting all nodes with proper edges and conditional routing
 
 - [TODO] **Step 10**: Create the Streamlit web UI (`app.py`) for user-friendly interaction with the agent and also added learning resources suggestion feature in the Streamlit UI that recommends tutorials based on detected algorithmic concepts
 
