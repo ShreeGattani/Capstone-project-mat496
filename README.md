@@ -93,11 +93,13 @@ This project successfully delivers a functional Socratic tutoring agent for comp
     cd hintforge
     ```
 2. **Create and activate virtual environment**
-   ```python -m venv .venv
-      source .venv/bin/activate
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
    ```    
 2.  **Install dependencies**:
-    ```pip install --upgrade pip
+    ```bash
+    pip install --upgrade pip
     pip install -r requirements.txt
     ```
 3.  **Configure Environment**:
@@ -107,11 +109,13 @@ This project successfully delivers a functional Socratic tutoring agent for comp
     TAVILY_API_KEY=tvly-your-key-here
     ```
 4.  **Run the agent**:
-    ```source .venv/bin/activate
+    ```bash
+    source .venv/bin/activate
     python hintforge_agent.py
     ```
 4.  **Run the Streamlit UI**:
-    ```source .venv/bin/activate
+    ```bash
+    source .venv/bin/activate
     streamlit run app.py
     ```    
 
